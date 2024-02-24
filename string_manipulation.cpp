@@ -41,9 +41,10 @@ int main() {
         std::cout << "They are not equal\n";
     }
 
-    // Find the index of the first occurrence of a character
+    // Find the index of the first occurrence of a substring
     std::cout << str1.find("s") << std::endl;  // Outputs 1
     std::cout << str1.find("sd") << std::endl;  // Outputs 1
+    std::cout << str1.find("j") << std::endl;  // Unexpected behavior, could print anything
 
     // Extract a substring
     str = "A random string";
